@@ -91,4 +91,3 @@ if (num % 3 === 4) {
 } else {
     console.log('odd');
 }
-var num
