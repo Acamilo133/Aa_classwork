@@ -14,3 +14,19 @@ let foo1 = function(){
 let cool =()=> {
     return "bar";
 }
+function average(num1,num2){
+    let sum = num1+num2;
+    let avg=sum/2;
+    return avg;
+}
+function average2(num1,num2){
+    let sum=sumnums(num1,num2)
+    let avg=sum/2;
+    return avg;
+}
+function sumnums(num1,num2){
+    return num1+num2;
+}
+console.log(average(1,3))
+console.log(average2(1,2))
+console.log(sumnums(4,8))
