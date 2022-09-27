@@ -1,0 +1,56 @@
+console.log('hello world')
+console.log(2)
+console.log(2+2)
+console.log(2*5)
+console.log(10-3)
+console.log(10/3)
+console.log(10%3)
+console.log(9%2)
+console.log(10%2)
+console.log(true || true)
+console.log(true || false)
+console.log(false || true)
+console.log(false || false)
+console.log(true && true)
+console.log(true && false)
+console.log(!true)
+console.log(!!true)
+console.log(!false)
+console.log(10>20)
+console.log(10<20)
+console.log(25>=5)
+console.log(12===11)
+console.log(12 !==11)
+console.log(12=='12')
+console.log("anything")
+let str = "hello"
+console.log(str[1])
+console.log("hello"[1])
+console.log("hello".length)
+console.log("hello".indexOf('h'))
+console.log("hello".indexOf('1'))
+console.log("race".concat("car"))
+console.log("race"+"car")
+console.log(4+"hi")
+console.log(4*'hi')
+console.log("hello".toUpperCase())
+console.log("HELLO".toLowerCase())
+console.log("hello".slice())
+console.log("hello".slice(1))
+console.log("hello".slice(1,3))
+let name="jonathan"
+console.log(name)
+console.log(name==="jonathan")
+name= "kevin"
+console.log(name)
+let test 
+console.log(test)
+if (20 === 2) {
+    console.log("theyareequal")
+} else {
+    console.log("they are not equal")
+}
+let num = 20
+if (num === 20){
+    console.log("equals20")
+}
