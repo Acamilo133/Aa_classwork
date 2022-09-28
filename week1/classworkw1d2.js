@@ -68,8 +68,6 @@ function threeOrseven(num){
 }
 console.log(threeOrseven(20))
 
-
-function hello(str){
-    if (hello ("aaron")) 
-}
-console.log(hello(str))
+function hello(str) {
+    console.log("Hello, " + str + ".");
+  }
