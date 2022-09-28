@@ -21,11 +21,39 @@
 // }
 //printRange(3,10);
 
-function printRange1(start,end){
-    let i = start;
-    while(i <= end){
-        console.log(i);
-        i++;
+// function printRange1(start,end){
+//     let i = start;
+//     while(i <= end){
+//         console.log(i);
+//         i++;
+//     }
+// }
+
+// printRange1(7,21)
+
+// let i=20;
+// while(false){
+//     console.log(i);
+// }
+
+// function skipfive(num){
+//     for(let i = 1; i <= num; i++){
+//         if(i === 5){
+//             continue
+//         }
+//             console.log(i);
+        
+//     }
+// }
+// skipfive(20);
+
+function breakAtFive(num){
+    for(let i = 1; i <= num; i++){
+        if(i === 5){
+            break;
+        }
+        console.log(i)
     }
-}
-printRange1(7,21)
+    console.log("after the top");
+        }
+    breakAtFive(20)
