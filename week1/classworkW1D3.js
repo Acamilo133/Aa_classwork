@@ -47,13 +47,25 @@
 // }
 // skipfive(20);
 
-function breakAtFive(num){
-    for(let i = 1; i <= num; i++){
-        if(i === 5){
-            break;
+// function breakAtFive(num){
+//     for(let i = 1; i <= num; i++){
+//         if(i === 5){
+//             break;
+//         }
+//         console.log(i)
+//     }
+//     console.log("after the top");
+//         }
+//     breakAtFive(20)
+
+
+function isprime(num){
+    if(num < 2) return false;
+    for(let n=2; n < num; n++){
+        if (num % n === 0){
+            return false 
         }
-        console.log(i)
     }
-    console.log("after the top");
-        }
-    breakAtFive(20)
+    return true
+}
+console.log(isprime(5))
