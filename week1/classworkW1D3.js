@@ -59,13 +59,34 @@
 //     breakAtFive(20)
 
 
-function isprime(num){
-    if(num < 2) return false;
-    for(let n=2; n < num; n++){
-        if (num % n === 0){
-            return false 
-        }
+// function isprime(num){
+//     if(num < 2) return false;
+//     for(let n=2; n < num; n++){
+//         if (num % n === 0){
+//             return false 
+//         }
+//     }
+//     return true
+// }
+// console.log(isprime(5))
+
+
+// Define a function `logBetween(lowNum, highNum)` that will print every number
+// // from `lowNum` to `highNum`, inclusive. Inclusive means that the range includes
+// // `lowNum` and `highNum`. Hint: this function only needs to print using `console.log`,
+// // it does not need to return.
+
+function logBetween(lowNum, highNum) {
+    for (var i = lowNum; i <= highNum; i += 1) {
+      console.log(i);
     }
-    return true
-}
-console.log(isprime(5))
+  }
+  
+  function logBetween(lowNum, highNum) {
+    var i = lowNum;
+    while (i <= highNum) {
+      console.log(i);
+      i++;
+    }
+  }
+  console.log(logBetween)
