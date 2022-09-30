@@ -8,12 +8,12 @@
 // 1: John
 // 2: Carson
 
-function logEach(array) {
-    for (var i = 0; i < array.length; i += 1) {
-      console.log(i + ": " + array[i]);
-    }
-  }
-  logEach(["Anthony", "John", "Carson"])
+// function logEach(array) {
+//     for (var i = 0; i < array.length; i += 1) {
+//       console.log(i + ": " + array[i]);
+//     }
+//   }
+//   logEach(["Anthony", "John", "Carson"])
     
 
 
@@ -24,15 +24,15 @@ function logEach(array) {
 //
 // Examples:
 //
-console.log(range(1,4)) //=> [1,2,3,4]
+console.log(range(5,10)) //=> [1,2,3,4]
 // range(4,2) => []
 
 
 function range(start,end){
-    let arr = [];
-    for (let i = start; i <= end; i++) {
-        console.log(i);
-        arr.push(i);
+    let arr =[]
+    for (let a = start; a <= end; a++) {
+        console.log(a);
+        arr.push(a);
     }
 
     return arr;
