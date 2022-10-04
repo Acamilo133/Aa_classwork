@@ -37,3 +37,4 @@ function range(start,end){
 
     return arr;
 }
+console.log(range(5,10))
