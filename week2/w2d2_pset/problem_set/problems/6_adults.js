@@ -16,7 +16,7 @@ adults(ppl); // => [ 'John', 'Jane' ]
 ***********************************************************************/
 
 function adults(people) {
-
+  
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
